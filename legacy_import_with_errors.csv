@@ -1,0 +1,19 @@
+customer_id,customer_name,date,category,type,amount,points,notes
+C101,Ishaan Gupta,2026-09-02,Grocery,earn,1200.50,,Good row
+C101,Ishaan Gupta,2026-09-20,Electronics,earn,18000,,Good row
+C101,Ishaan Gupta,2026-10-05,Dining,redeem,900,100,Good redemption
+X12,Bad Id Person,2026-09-03,Grocery,earn,500,,Bad customer id
+C102,Nisha Rao,2026-09-04,Grocery,earn,-250,,Negative amount
+C102,Nisha Rao,2026-09-05,Grocery,earn,abc,,Non-numeric amount
+C102,Nisha Rao,2026-02-31,Apparel,earn,900,,Impossible date
+C102,Nisha Rao,2027-12-01,Apparel,earn,900,,Future date
+C102,Nisha Rao,2026-09-10,Toys,earn,700,,Unknown category
+C103,,2026-09-11,Beauty,earn,640,,Blank name
+C103,Varun Das,2026-09-12,Beauty,swap,640,,Unknown type
+C104,Tara Joshi,2026-09-14,Apparel,earn,2499,,Good row
+C104,Tara Joshi,2026-09-14,Apparel,earn,2499,,Duplicate of previous row
+C104,Tara Joshi,2026-09-30,Grocery,redeem,5000,5000,Redeems more than balance
+C105,Farhan Ali,2026-10-01,Home & Kitchen,earn,50000,,Boundary: max purchase
+C105,Farhan Ali,2026-10-02,Home & Kitchen,earn,50000.01,,Just over the limit
+C106,Lakshmi Pillai,2026-10-10,Grocery,earn,Rs. 1,850.00,,Currency text in amount (too many columns)
+C106,Lakshmi Pillai,2026-10-12,Dining,earn,"Rs. 1,850.00",,Currency text parsed OK
