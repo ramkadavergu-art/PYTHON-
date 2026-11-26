@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+data/transactions.json
+data/transactions.csv
+data/*.corrupt-*
+data/*.tmp
+exports/*
+!exports/.gitkeep
+logs/*
+!logs/.gitkeep
