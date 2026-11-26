@@ -1,0 +1,53 @@
+txn_id,customer_id,customer_name,date,category,type,amount,points,discount,tier,notes
+T0001,C001,Aarav Sharma,2026-06-23,Grocery,earn,0.01,0,0.0,Bronze,Boundary: minimum amount (0 points)
+T0002,C007,Arjun Singh,2026-06-28,Beauty,earn,613.0,76,0.0,Bronze,Early visit
+T0003,C002,Priya Reddy,2026-07-03,Grocery,earn,9.99,0,0.0,Bronze,Boundary: just under one point
+T0004,C002,Priya Reddy,2026-07-04,Grocery,earn,10.0,1,0.0,Bronze,Boundary: exactly one point
+T0005,C008,Divya Menon,2026-07-13,Beauty,earn,499.99,62,0.0,Bronze,Edge: fractional points rounding
+T0006,C007,Arjun Singh,2026-07-15,Beauty,earn,805.63,100,0.0,Bronze,Early visit
+T0007,C003,Kiran Kumar,2026-07-23,Electronics,earn,50000.0,7500,0.0,Bronze,Boundary: maximum purchase limit
+T0008,C007,Arjun Singh,2026-07-31,Electronics,earn,650.42,97,0.0,Bronze,Early visit
+T0009,C004,Sneha Iyer,2026-08-02,Electronics,earn,4368.56,655,0.0,Bronze,Walk-in
+T0010,C004,Sneha Iyer,2026-08-12,Dining,earn,25000.0,2500,0.0,Bronze,Edge: large purchase (warning threshold)
+T0011,C002,Priya Reddy,2026-08-14,Other,earn,1151.45,115,0.0,Bronze,Walk-in
+T0012,C008,Divya Menon,2026-08-15,Grocery,earn,4326.04,432,0.0,Bronze,
+T0013,C008,Divya Menon,2026-08-15,Grocery,redeem,2513.3,-100,10.0,Bronze,Points redeemed at checkout
+T0014,C006,Meera Nair,2026-08-16,Home & Kitchen,earn,2090.0,209,0.0,Bronze,Walk-in
+T0015,C005,Rohit Verma,2026-08-18,Electronics,earn,1163.94,174,0.0,Bronze,Walk-in
+T0016,C004,Sneha Iyer,2026-08-22,Beauty,earn,3039.37,569,0.0,Gold,
+T0017,C005,Rohit Verma,2026-08-24,Apparel,earn,4187.62,523,0.0,Bronze,
+T0018,C005,Rohit Verma,2026-08-24,Apparel,redeem,745.81,-300,30.0,Bronze,Points redeemed at checkout
+T0019,C001,Aarav Sharma,2026-08-25,Beauty,earn,4584.62,573,0.0,Bronze,
+T0020,C006,Meera Nair,2026-08-28,Dining,earn,1965.22,196,0.0,Bronze,Online order
+T0021,C008,Divya Menon,2026-08-31,Electronics,earn,3840.17,576,0.0,Bronze,Walk-in
+T0022,C003,Kiran Kumar,2026-09-03,Apparel,earn,3938.23,738,0.0,Gold,Online order
+T0023,C008,Divya Menon,2026-09-04,Grocery,earn,1924.64,240,0.0,Silver,Online order
+T0024,C008,Divya Menon,2026-09-04,Grocery,redeem,2762.08,-500,50.0,Silver,Points redeemed at checkout
+T0025,C001,Aarav Sharma,2026-09-05,Dining,earn,558.05,55,0.0,Bronze,
+T0026,C003,Kiran Kumar,2026-09-07,Electronics,earn,3329.47,749,0.0,Gold,
+T0027,C003,Kiran Kumar,2026-09-07,Electronics,redeem,3009.17,-300,30.0,Gold,Points redeemed at checkout
+T0028,C003,Kiran Kumar,2026-09-12,Grocery,earn,5543.57,831,0.0,Gold,Walk-in
+T0029,C005,Rohit Verma,2026-09-29,Apparel,earn,769.87,96,0.0,Bronze,Home delivery
+T0030,C005,Rohit Verma,2026-09-29,Apparel,redeem,2763.78,-300,30.0,Bronze,Points redeemed at checkout
+T0031,C002,Priya Reddy,2026-10-07,Apparel,earn,1137.34,142,0.0,Bronze,Home delivery
+T0032,C004,Sneha Iyer,2026-10-15,Dining,earn,2979.18,446,0.0,Gold,Home delivery
+T0033,C005,Rohit Verma,2026-10-16,Beauty,earn,3242.61,405,0.0,Bronze,Festival offer
+T0034,C004,Sneha Iyer,2026-10-21,Other,earn,1582.76,237,0.0,Gold,
+T0035,C005,Rohit Verma,2026-10-21,Other,earn,560.43,70,0.0,Silver,Home delivery
+T0036,C005,Rohit Verma,2026-10-21,Other,redeem,1914.68,-300,30.0,Silver,Points redeemed at checkout
+T0037,C002,Priya Reddy,2026-10-22,Dining,earn,2761.6,276,0.0,Bronze,
+T0038,C002,Priya Reddy,2026-10-22,Dining,redeem,3124.04,-300,30.0,Bronze,Points redeemed at checkout
+T0039,C008,Divya Menon,2026-10-22,Electronics,earn,2414.8,452,0.0,Silver,
+T0040,C001,Aarav Sharma,2026-10-23,Electronics,earn,2397.47,359,0.0,Bronze,
+T0041,C002,Priya Reddy,2026-10-25,Beauty,earn,3048.47,381,0.0,Bronze,Walk-in
+T0042,C002,Priya Reddy,2026-10-25,Beauty,redeem,3335.54,-500,50.0,Bronze,Points redeemed at checkout
+T0043,C004,Sneha Iyer,2026-10-30,Apparel,earn,1816.25,340,0.0,Gold,Weekend shopping
+T0044,C004,Sneha Iyer,2026-10-30,Apparel,redeem,2929.67,-400,40.0,Gold,Points redeemed at checkout
+T0045,C006,Meera Nair,2026-11-01,Apparel,earn,1082.0,135,0.0,Bronze,Weekend shopping
+T0046,C002,Priya Reddy,2026-11-06,Grocery,earn,1906.68,190,0.0,Bronze,Home delivery
+T0047,C003,Kiran Kumar,2026-11-09,Home & Kitchen,earn,1595.89,239,0.0,Gold,Home delivery
+T0048,C003,Kiran Kumar,2026-11-09,Home & Kitchen,redeem,3335.23,-400,40.0,Gold,Points redeemed at checkout
+T0049,C018,RAM,2026-11-25,Electronics,earn,1500.0,225,0.0,Bronze,
+T0050,C018,RAM,2026-11-25,Electronics,earn,1500.0,225,0.0,Bronze,
+T0051,C018,RAM,2026-11-25,Electronics,earn,1500.0,225,0.0,Bronze,
+T0052,C029,RAM,2026-11-26,Electronics,earn,4000.0,600,0.0,Bronze,
